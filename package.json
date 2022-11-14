@@ -1,0 +1,42 @@
+{
+  "name": "vite-plugin-404-redirect",
+  "version": "0.0.1",
+  "author": "liuxiaojun",
+  "description": "解决 vite 项目单页面 history 路由中 404 页面跳转问题。",
+  "main": "index.js",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuxiaojun666/vite-plugin-404-redirect.git"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "html",
+    "404",
+    "redirect",
+    "history",
+    "router"
+  ],
+  "files": [
+    "dist",
+    "index.js"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/liuxiaojun666/vite-plugin-404-redirect",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "vite": "^3.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.4",
+    "typescript": "^4.8.4"
+  },
+  "engines": {
+    "node": ">=16.18.0",
+    "pnpm": ">=6.0.0"
+  }
+}
